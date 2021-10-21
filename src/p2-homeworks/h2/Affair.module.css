@@ -1,0 +1,43 @@
+.affair {
+    width: 190px;
+    display: flex;
+    background-color: #dddddd;
+    margin-bottom: 5px;
+}
+
+.deleteBtn {
+    color: brown;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.affair_container {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.name {
+    padding-left: 5px;
+    font-size: 17px;
+    color: #232222;
+}
+
+.priority {
+    font-size: 13px;
+    color: #6d7f8f;
+    align-self: end;
+    padding-right: 5px;
+}
+
+.low {
+    background-color: lightgreen;
+}
+
+.high {
+    background-color: red;
+}
+
+.middle {
+    background-color: #9d9d4a;
+}
