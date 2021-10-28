@@ -1,7 +1,26 @@
-.someClass {
+.addUserContainer {
+    padding: 20px 70px;
+}
 
+.default {
+    border: 2px solid green;
 }
 
 .error {
-    border: 1px solid red;
+    border: 2px solid red;
+}
+
+.textError {
+    display: block;
+    color: red;
+}
+
+button {
+    padding: 1px 5px;
+    margin: 5px;
+}
+
+input {
+    outline: none;
+    background-color: lightgrey;
 }
