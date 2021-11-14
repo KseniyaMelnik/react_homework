@@ -1,0 +1,45 @@
+.container {
+    position: fixed;
+    top: 25px;
+    left: 0;
+    height: 50px;
+    transition-duration: 0.7s;
+}
+
+.hoveredElement {
+    background-color: green;
+    width: 20px;
+    height: 20px;
+
+}
+.navbar {
+    width: 300px;
+    position: fixed;
+    top: 25px;
+    left: -250px;
+    transition-duration: 0.7s;
+}
+.container:hover {
+    left: 250px;
+}
+.container:hover .navbar:hover {
+    left: 0;
+}
+
+.link {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: grey;
+}
+.link:active {
+
+}
+
+.active {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
