@@ -15,7 +15,5 @@ function Header() {
        </div>
     )
 }
-/*className={({ isActive }) =>(isActive ? " active" : "")}
-className={isActive => (!isActive? s.unselected : s.link)}*/
 
 export default Header
