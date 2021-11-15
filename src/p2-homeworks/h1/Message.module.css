@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    background-color: darkgrey;
+
     font-size: 18px;
     padding: 10px 0;
 }
@@ -16,12 +16,13 @@
     border-radius: 50%;
     align-self: end;
     z-index: 2;
+    background-color: #b0c2cc;
 
 }
 
 .textContainer {
     max-width: 300px;
-    background-color: black;
+    background-color: #93a5b2;
     padding: 10px 20px;
     border-radius: 10px 10px 10px 0;
     position: relative;
@@ -30,7 +31,7 @@
 .textContainer:before {
     left: -7px;
     width: 20px;
-    background-color: black;
+    background-color: #93a5b2;
     border-bottom-right-radius: 16px 14px;
     content: "";
     position: absolute;
@@ -41,7 +42,7 @@
 .textContainer:after {
     left: -26px;
     width: 26px;
-    background-color: darkgrey;
+    background-color: lightgrey;
     border-bottom-right-radius: 15px;
     content: "";
     position: absolute;
@@ -50,11 +51,11 @@
 }
 
 .name {
-    color: #a887c4;
+    color: #4f5f66;
 }
 
 .message {
-    color: grey;
+    color: #3c464c;
 }
 
 .time {
