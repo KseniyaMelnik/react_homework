@@ -1,8 +1,10 @@
 .affair {
-    width: 190px;
+    width: 270px;
     display: flex;
     background-color: #dddddd;
     margin-bottom: 5px;
+    border-radius: 5px;
+
 }
 
 .deleteBtn {
@@ -14,7 +16,9 @@
 .affair_container {
     display: flex;
     justify-content: space-between;
-    width: 170px;
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .name {
@@ -25,7 +29,7 @@
 
 .priority {
     font-size: 13px;
-    color: #6d7f8f;
+    color: #4d5264;
     align-self: end;
     padding-right: 5px;
 }

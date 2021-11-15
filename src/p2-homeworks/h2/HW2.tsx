@@ -12,11 +12,11 @@ export type FilterType = 'all' | AffairPriorityType
 
 // constants
 const defaultAffairs: Array<AffairType> = [
-    {_id: 1, name: 'React', priority: 'high'},
-    {_id: 2, name: 'anime', priority: 'low'},
-    {_id: 3, name: 'games', priority: 'low'},
-    {_id: 4, name: 'work', priority: 'high'},
-    {_id: 5, name: 'html & css', priority: 'middle'},
+    {_id: 1, name: 'Wake up the human', priority: 'high'},
+    {_id: 2, name: 'Groom yourself', priority: 'low'},
+    {_id: 3, name: 'Practice ninja moves', priority: 'low'},
+    {_id: 4, name: 'Eat - as much as possible', priority: 'high'},
+    {_id: 5, name: 'Run like a psycopath', priority: 'middle'},
 ]
 
 // pure helper functions

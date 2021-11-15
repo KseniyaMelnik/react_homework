@@ -14,7 +14,7 @@ function Affair(props: AffairPropsType) {
         props.deleteAffairCallback(props.affair._id)
     }
     const priorityStyle = {
-        backgroundColor: props.affair.priority === "low"? "#c9fdc9" : props.affair.priority === "middle"? "#fcfcd3": "#fccace"
+        backgroundColor: props.affair.priority === "low"? "#b0c2cc" : props.affair.priority === "middle"? "#93a5b2": "#539ed1"
     };
 
     return (

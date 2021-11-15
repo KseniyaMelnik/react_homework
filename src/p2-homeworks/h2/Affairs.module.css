@@ -1,36 +1,58 @@
 .affairs {
     padding: 40px 70px;
-    background-color: lightgray;
+    display: block;
+    background: url("https://icons.iconarchive.com/icons/iconka/meow-2/256/cat-paper-icon.png") lightgray no-repeat 35%;
+    min-height: 300px;
 }
-.btn_container {
 
-}
 .btn {
     cursor: pointer;
     margin-right: 7px;
     border-radius: 3px;
+    padding: 5px 10px;
+    transition: .5s ease-in-out;
+}
+
+.btn:hover {
+    color: #505050;
+    transition: .5s ease-in-out;
 }
 
 .all_btn {
     color: #232222;
     border: 1px solid #3d3c3c;
-
 }
+
+.all_btn:hover {
+    background-color: #c7e7fa;
+}
+
 .high_btn {
-    background-color: #fccace;
+    background-color: #539ed1;
     color: #232222;
-    border: 1px solid lightcoral;
-
+    border: 1px solid #313b56;
 }
+
+.high_btn:hover {
+    background-color: #1e86d5;
+}
+
 .middle_btn {
-    background-color: #fcfcd3;
+    background-color: #93a5b2;
     color: #232222;
-    border: 1px solid #adad4c;
-
+    border: 1px solid #62625e;
 }
-.low_btn {
-    background-color: #c9fdc9;
-    color: #232222;
-    border: 1px solid green;
 
+.middle_btn:hover {
+    background-color: #77a0b0;
+}
+
+.low_btn {
+    background-color: #b0c2cc;
+    color: #232222;
+    border: 1px solid #93a1a1;
+}
+
+.low_btn:hover {
+    background-color: #95bccb;
 }
