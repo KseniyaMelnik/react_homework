@@ -1,13 +1,14 @@
 .blue {
-    border-bottom: 5px solid blue;
+    border-bottom: 5px solid #539ed1;
 }
 
 .column {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: url("https://iconarchive.com/download/i78693/iconka/meow-2/cat-sleep.ico") lightgray no-repeat 20%;
 }
 
 .testSpanError {
-    color: blue;
+    color: #539ed1;
 }
