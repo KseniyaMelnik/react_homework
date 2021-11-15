@@ -1,45 +1,46 @@
 .container {
     position: fixed;
     top: 25px;
-    left: 0;
+    left: 10px;
+    transition-duration: 0.9s;
     height: 50px;
-    transition-duration: 0.7s;
 }
 
-.hoveredElement {
-    background-color: green;
-    width: 20px;
-    height: 20px;
-
-}
 .navbar {
     width: 300px;
     position: fixed;
     top: 25px;
-    left: -250px;
-    transition-duration: 0.7s;
+    left: -260px;
+    transition-duration: 0.9s;
+    height: 50px;
 }
 .container:hover {
-    left: 250px;
+    left: 260px;
 }
-.container:hover .navbar:hover {
-    left: 0;
+.container:hover .navbar {
+    left: 10px;
 }
 
 .link {
     margin: 10px;
     text-decoration: none;
+    color: #4f5f66;
+    padding: 10px 0;
 }
 
 .link:hover {
-    background-color: grey;
+
 }
 .link:active {
 
 }
 
+img {
+}
+
 .active {
-    color: white;
+    color: #539ed1;
     margin: 10px;
     text-decoration: none;
+    padding: 10px 0;
 }
