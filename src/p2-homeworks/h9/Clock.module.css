@@ -1,0 +1,66 @@
+.wrapper {
+    padding: 10px 50px;
+}
+
+.dataContainer {
+    height: 3rem;
+    padding-left: 10px;
+    color: #4b5065;
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.needle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 65px;
+    width: 3px;
+    transform-origin: bottom center;
+    transition: all 0.5s ease-in;
+}
+.needle.hour {
+    transform: translate(-50%, -100%) rotate(0deg);
+    height: 80px;
+    background-color: #4b5065;
+}
+.needle.minute {
+    transform: translate(-50%, -100%) rotate(0deg);
+    height: 100px;
+    background-color: #5e6c7c;
+}
+
+.needle.second {
+    transform: translate(-50%, -100%) rotate(0deg);
+    height: 100px;
+    background-color: #539ed1;
+}
+.centerPoint {
+    background-color: #539ed1;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.centerPoint::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}

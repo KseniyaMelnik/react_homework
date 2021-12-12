@@ -1,5 +1,5 @@
 import React from 'react'
-import Clock from './Clock'
+import Clock from "./Clock";
 
 function HW9() {
     return (
@@ -8,7 +8,7 @@ function HW9() {
             homeworks 9
 
             {/*should work (должно работать)*/}
-            <Clock/>
+             <Clock />
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
