@@ -1,9 +1,14 @@
+.container {
+    margin-left: 50px;
+    padding: 10px 0;
+}
+
 .dark {
     background: dimgrey;
 }
 
 .dark-text {
-    color: aliceblue;
+    color: #a7aaad;
 }
 
 .red {
@@ -11,13 +16,29 @@
 }
 
 .red-text {
-    color: aqua;
+    color: #5d4d4d;
 }
 
-.some {
+.green {
     background: lightgreen;
 }
 
-.some-text {
-    color: darkslateblue;
+.green-text {
+    color: #394939;
+}
+
+.blue {
+    background: #88bbe3;
+}
+
+.blue-text {
+    color: #3b4850;
+}
+
+.yellow {
+    background: #fcfcd1;
+}
+
+.yellow-text {
+    color: #9f8320;
 }
